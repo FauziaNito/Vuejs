@@ -37,3 +37,28 @@ body{
     text-align: center;
     vertical-align:middle;
 }
+
+.tv{
+    position: relative;
+    
+}
+.control-buttons, .tv-channels{
+    display: flex;
+    position: absolute;
+    bottom: 82px;
+    left: 43%;
+    /* background-color: green; */
+
+}
+.tv-channels{
+    left: 33%;
+    top: 27%
+}
+.control-buttons img{
+    margin-left:30px;
+    height: 20px;
+}
+.on-off-button{
+ padding-left: 60px;
+ bottom: 2px;
+}

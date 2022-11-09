@@ -1,7 +1,7 @@
-const conditionalRendering = {
+const bulbApp = {
 	data() {
 		return {
-			bulbSwitch: "on",
+			bulbSwitch: "off",
             // image: "./images/bulb-off.png",
 			// switchStatus: [
 			// 	{ bulbStatus: "off", image: "./images/bulb-off.png" },
@@ -16,4 +16,4 @@ const conditionalRendering = {
 	},
 };
 
-Vue.createApp(conditionalRendering).mount("#app");
+Vue.createApp(bulbApp).mount("#app");
